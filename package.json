@@ -7,7 +7,8 @@
     "dev": "vite",
     "preview": "vite preview",
     "build": "pnpm run type-check && pnpm run build-only",
-    "build-only": "vite build --config vite.build.config.ts"
+    "build-only": "vite build --config vite.build.config.ts",
+    "prepare": "custompatch"
   },
   "dependencies": {
     "ag-grid-community": "^30.1.0",
